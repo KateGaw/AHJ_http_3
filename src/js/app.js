@@ -1,4 +1,4 @@
-const server = 'http://localhost:7070';
+const server = 'https://http-server-3.herokuapp.com';
 const images = document.querySelector('.images');
 const error = document.getElementById('error-message');
 const selectBtn = document.querySelector('#selectBtn');

@@ -94,7 +94,7 @@ app.use(async (ctx) => {
       readStream.pipe(writeStream);
     });
     console.log(`${link} file was added`);
-    listImgs.push(`http://localhost:7070/${link}`);
+    listImgs.push(`https://http-server-3.herokuapp.com/${link}`);
     ctx.response.body = link;
     return;
   }
